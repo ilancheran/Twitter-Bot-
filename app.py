@@ -12,8 +12,8 @@ def job():
   twitterbot.post()
   print("success")
 
-schedule.every().day.at("16:52").do(job)
-schedule.every().day.at("17:11").do(job)
+schedule.every().day.at("10:00").do(job)
+schedule.every().day.at("14:00").do(job)
 
 
 while True :
